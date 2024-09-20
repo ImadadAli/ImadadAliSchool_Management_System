@@ -1,0 +1,7 @@
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.dll
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.pdb
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Release\Wisdom.csproj.AssemblyReference.cache
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Release\Wisdom.csproj.CoreCompileInputs.cache
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Release\Wisdom.csproj.CopyComplete
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Release\Wisdom.dll
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Release\Wisdom.pdb

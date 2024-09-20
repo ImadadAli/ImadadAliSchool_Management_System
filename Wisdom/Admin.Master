@@ -1,0 +1,218 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Wisdom.Admin1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@600&display=swap" rel="stylesheet">
+
+    <title></title> 
+    <style type="text/css">
+    .space
+    {
+        margin-left: 140px;
+    }
+    .push
+    {
+        background-color: deepskyblue;
+	    color: #fff;
+	    border: none;
+	    border-radius: 10px;
+	    cursor: pointer;	    
+	    font-size: 20px;
+	    padding: 10px;
+	    margin: 10px 0px;
+    }
+    .dir
+    {
+        border:1px;
+        border-style:solid;
+        text-align:center;
+        border-spacing:20px;
+    }
+    
+    
+    .btn:hover
+    {
+        background-color: var(--black);
+    }
+    .dev
+    {
+        background-color:#A55129;
+        color:White;
+    }
+    .data
+    {
+        background-color:#FFF7E7;
+        color:#8C4510;
+    }
+    .std
+    {
+        width:180px;
+    }
+    #ddlSyllabusStandard
+    {
+        width:250px;   
+    }
+    .nav-link:hover
+{
+    text-decoration:underline;
+    font-size:17px;
+}
+    .box
+    {
+        position: absolute;
+        box-sizing: border-box;
+        width: 100%;
+        padding:1.2rem 1.4rem;
+        border:var(--border);
+        font-size: 20px;
+        color:var(--black);
+        background-color: Aqua;
+        border-radius: 20px;
+        width: 250px;        
+	    height: 150px;
+	    margin-left:1260px;
+    }
+    #btnLog:hover
+    {
+        background-color:Red;
+    }
+    .bx
+    {
+        border-color:Maroon;
+        position: absolute;
+        box-sizing: border-box;        
+        width: 100%;
+        padding:1.2rem 1.4rem;
+        border:var(--border);
+        font-size: 20px;
+        color:var(--black);
+        background-color: Gray;
+        border-radius: 10px;
+        width: 250px;        
+	    height: 200px;
+	    	    
+    }
+    .inner
+    {
+        border-color:Maroon;
+        position: absolute;
+        box-sizing: border-box;        
+        width: 100%;
+        border:var(--border);
+        font-size: 20px;
+        color:var(--black);
+        background-color: deepskyblue;
+        border-radius: 20px;
+        width: 200px;        
+	    height: 50px;	    
+    }
+    
+    
+    .nav-link:hover
+{
+    text-decoration:underline;
+    font-size:20px;
+}
+    .nav-link .active
+{
+    text-decoration:underline;
+    font-size:20px;
+}
+#btnSubmit
+    {
+        display: inline-block;
+        margin-top: 5px;
+        margin-left:40px;
+        cursor: pointer;
+        color:var(--white);
+        font-size: 20px;
+        border-radius: 15px;
+        text-transform: capitalize;
+        background-color: Green;
+    }    
+    .btn:hover
+    {
+        background-color: var(--black);
+    }
+    .push
+    {
+        background-color: deepskyblue;
+	    color: #fff;
+	    border: none;
+	    border-radius: 10px;
+	    cursor: pointer;	    
+	    font-size: 20px;
+	    padding: 10px;
+	    margin: 10px 0px;
+    }
+    .dir
+    {
+        border:1px;
+        border-style:solid;
+        text-align:center;
+        border-spacing:20px;
+    }
+body {
+	font-family: Verdana;
+	font-size: 16px;
+	color: Black;
+}
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+    <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <img height="70px" src="Images/Wisdom.jpg" style="border-radius: 5000px" />
+             <a class="navbar-brand"><h2 style="margin-left:10px;font-family: 'Gentium Book Plus', serif;font-size:37px">WISDOM ADMIN</h2></a>
+    <div class="collapse navbar-collapse space" id="navbarScroll" >
+      <ul class="nav nav-pills">
+  <li class="nav-item active">
+    <a class="nav-link" aria-current="page" href="adHome.aspx">Home</a>
+  </li>           
+        <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="adTeacher.aspx">Staff</a>
+    </li>  
+    <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="adStud.aspx">Students</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="adMess.aspx">Messages</a>
+    </li>  
+    <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="adAtten.aspx">Attendance</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="adResult.aspx">Result</a>
+    </li>
+      </ul>
+    </div>
+  </div>
+
+      <div style="padding-right:80px">
+            <asp:Button ID="btnLog" CssClass="btn btn-success" runat="server" Text="Logout" 
+                onclick="btnLog_Click"></asp:Button>
+        </div>
+</nav>
+
+
+
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+    </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

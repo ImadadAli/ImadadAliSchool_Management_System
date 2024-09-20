@@ -1,0 +1,12 @@
+c:\users\sshab\onedrive\documents\visual studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.dll
+c:\users\sshab\onedrive\documents\visual studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.pdb
+c:\users\sshab\onedrive\documents\visual studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.dll
+c:\users\sshab\onedrive\documents\visual studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.pdb
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.csproj.AssemblyReference.cache
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.csproj.CoreCompileInputs.cache
+C:\Users\sshab\OneDrive\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.csproj.CopyComplete
+C:\Users\admin\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\bin\Wisdom.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\Wisdom\Wisdom\obj\Debug\Wisdom.pdb

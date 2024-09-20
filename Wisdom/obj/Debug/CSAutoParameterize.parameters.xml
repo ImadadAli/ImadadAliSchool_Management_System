@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DB-Web.config Connection String" description="DB Connection String used in web.config by the application to access the database." defaultvalue="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\School.mdf;Integrated Security=True;User Instance=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\sshab\\OneDrive\\Documents\\Visual\ Studio\ 2010\\Projects\\Wisdom\\Wisdom\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DB']/@connectionString" />
+  </parameter>
+</parameters>
